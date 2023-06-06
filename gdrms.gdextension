@@ -1,0 +1,6 @@
+[configuration]
+entry_symbol = "gdrms_library_init"
+
+[libraries]
+linux.x86_64 = "res://bin/x11/libgdrms.so"
+windows.x86_64 = "res://bin/win64/libgdrms.dll"
